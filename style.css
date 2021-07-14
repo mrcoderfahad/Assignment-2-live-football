@@ -1,0 +1,175 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* common utilities*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.content-center{
+    display: grid;
+    justify-content: center;
+}
+.container{
+    width: 1163px;
+}
+.link-btn{
+    padding: 10px 24px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    background-image: linear-gradient(#E02C6D, tomato);
+}
+.link-btn:hover{
+    background-image: linear-gradient(#E02C6D, orange);
+}
+/**************************
+ header section 
+ *************************/
+.header-area{
+    background: #2D25A0;
+    padding-top: 42px;
+    overflow: hidden;
+}
+.header-area:hover{
+    transform: scale(1.06) skew(2deg);
+    transition: transform 2s ease-in-out;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.header-area .menu-item a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 36px;
+}
+.copa-america{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    margin-top: 50px;
+    padding-bottom: 85px;
+}
+.half-width .copa-title{
+    color: #fff;
+    font-size: 64px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+
+.half-width img{
+    width: 100%;
+}
+/*******************
+ players section 
+********************/
+.players-area{
+    margin-top: 70px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    padding: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player:hover{
+    border: 1px solid gray;
+}
+.player img{
+    width: 100%;
+}
+.player .player-name{
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 28px;
+    color: #18191F;
+}
+.player-info{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #6C6C6C;
+    line-height: 25px;
+}
+/* highlights section  */
+.highlights-area{
+    margin-top: 140px;
+}
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 66px;
+}
+.highlight{
+    padding: 20px;
+}
+.highlight-title{
+    color: #0A0826;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.highlight-info{
+    margin-top: 8px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    color: #6C6C6C;
+    line-height: 25px;
+}
+.highlight img{
+    width: 100%;
+}
+
+/*------------------------------------
+        Sponsor Section Start
+-------------------------------------*/
+
+.sponsors {
+    width: 100%;
+    height: 40vh;
+    background: #E2E2E2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sponsors img {
+    width: 180px;
+}
+.sponsors:hover{
+    background-image: linear-gradient(#f11d6b, rgb(223, 153, 24));
+}
+/* footer section  */
+.footer-area{
+    margin-top: 130px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.footer-area .logo{
+    height: 110px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social-icons i{
+    border-radius: 50%;
+    margin-right:14px;
+    padding: 6px;
+    background: #969BAB;
+}
+.social-icons i:hover{
+    cursor: pointer;
+    background: lightgray;
+}
+.footer-area p{
+    font-size: 18px;
+}
